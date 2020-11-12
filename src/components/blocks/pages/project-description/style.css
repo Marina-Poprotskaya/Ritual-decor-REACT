@@ -1,0 +1,25 @@
+.project-description .title {
+    margin-top: 63px;
+}
+
+.description__images-wrapper {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.description__images-wrapper {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.description__image {
+    width: 32%;
+    padding-bottom: 20px;
+}

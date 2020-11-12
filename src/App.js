@@ -21,7 +21,7 @@ function App() {
       <Route path="/conditional" component={Conditional} />
       <Route path="/contacts" component={Contacts} />
       <Route path="/our-projects" component={OurProjects} />
-      <Route path="/project-description" component={ProjectDescription} />
+      <Route path="/project-description/:id" component={ProjectDescription} />
       <Footer />
     </div>
     </ Router>
