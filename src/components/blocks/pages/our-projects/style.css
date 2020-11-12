@@ -1,0 +1,19 @@
+.our-projects__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-projects .title {
+    margin-top: 30px;
+}
+
+.frame-our-projects__top {
+    top: 10%;
+    left: 10%;
+}
+
+.frame-our-projects__bottom {
+    bottom: 10%;
+    left: 10%;
+}

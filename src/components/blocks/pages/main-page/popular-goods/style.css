@@ -1,0 +1,49 @@
+.popular-goods__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.popular-goods__insert img {
+  width: 280px;
+  height: 307px;
+  padding-bottom: 15px;
+}
+
+.popular-goods__insert {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.popular-goods__insert .metal {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #555b60;
+  text-decoration: none;
+}
+
+.popular-goods__insert .price {
+  font-family: 'Arsenal', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #2e7aae;
+}
+
+.popular-goods__insert p {
+  font-family: 'Arsenal', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555b60;
+}
+
+.popular-goods-btn {
+  display: block;
+  margin: auto;
+}

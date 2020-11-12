@@ -1,0 +1,94 @@
+.about {
+    height: auto;
+    margin: 0 0 60px 0;
+  }
+  
+  .about__wrapper {
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+  
+  .about__wrapper .site-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about__block-title {
+    margin: 0 0 35px 65px;
+    font-size: 36px;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: normal;
+    position: relative;
+    width: auto;
+    display: inline-block;
+  }
+  
+  .about__block-title::before {
+    content: "";
+    border-bottom: 2px solid #BA9F5A;
+    position: absolute;
+    width: 50px;
+    left: -65px;
+    top: 50%;
+  }
+  
+  .about__block-title::after {
+    content: "";
+    border-bottom: 2px solid #BA9F5A;
+    position: absolute;
+    width: 50px;
+    right: -65px;
+    top: 50%;
+  }
+  
+  .about__block-text {
+    padding: 0 0 65px 65px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555B60;
+  }
+  
+  .about__block-img {
+    width: 50%;
+  }
+  
+  .left {
+    width: 35%;
+  }
+  
+  .left__img {
+    background: url(../../../../images/about/pic2.png) no-repeat left;
+    height: 321px;
+    width: auto;
+  }
+  
+  .about__block-right {
+    width: 50%;
+    margin-top: 36px;
+  }
+  
+  .about__block.left {
+    margin-top: 80px;
+  }
+  
+  .right__img {
+    position: relative;
+    background: url(../../../../images/about/pic1.png) no-repeat center;
+    height: 793px;
+    z-index: 1;
+    opacity: .9;
+  }
+  
+  .block-right__background {
+    position: absolute;
+    right: 0;
+    top: 25%;
+    background-color: #F7F4EF;
+    width: 55%;
+    height: 500px;
+  }

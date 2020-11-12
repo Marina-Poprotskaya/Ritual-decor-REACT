@@ -1,0 +1,37 @@
+.contacts {
+    padding-top: 30px;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+  }
+  
+  .adress__sub-title {
+    color: #9C7D35;
+  }
+  
+  .contact__email {
+    width: 50%;
+    padding-right: 0;
+  }
+  
+  .contact__title {
+    text-align: center;
+  }
+  
+  .contacts__item {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555B60;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }

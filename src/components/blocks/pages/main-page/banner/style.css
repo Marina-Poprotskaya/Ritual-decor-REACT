@@ -1,0 +1,25 @@
+.banner {
+  background: url(../../../../../images/angel_main.png) no-repeat center;
+  height: 650px;
+  color: #fff;
+}
+
+.banner__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 200px;
+  width: 480px;
+}
+
+.banner__title {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+.banner__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}

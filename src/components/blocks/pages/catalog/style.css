@@ -1,0 +1,97 @@
+.catalog .title {
+    margin-top: 30px;
+}
+
+.catalog-photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog-text {
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555B60;
+}
+
+.photo-wrapper__section-name {
+    font-family: 'Arsenal', sans-serif; 
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+}
+
+.photo-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2f2f2f80;
+}
+
+.wrapper {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.button__catalog {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.479);
+}
+
+.button__catalog:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.photo-wrapper:hover .button__catalog {
+    display: block;
+}
+
+.frame {
+    position: absolute;
+    width: 80%;
+    height: 95%;
+    border: 5px solid rgba(255, 255, 255, 0.7);
+}
+
+.frame-photoceramics {
+    top: 10%;
+    left: 10%;
+}
+
+.frame-vase {
+    bottom: 10%;
+    left: 10%;
+}
+
+.frame-memorial {
+    bottom: 10%;
+    left: 10%;
+}
+
+.frame-sculpture {
+    top: 10%;
+    left: 10%;
+}
+
+.catalog-photo__wrapper {
+    background: url(../../../../images/catalog/bg1.jpg) no-repeat center;
+    background-size: cover;
+}

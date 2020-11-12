@@ -1,0 +1,91 @@
+.conditions__wrapper {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+  }
+
+  .conditions .where-buy {
+    margin-top: 0;
+  }
+  
+  .conditions__delivery,
+  .conditions__point {
+    width: 45%;
+  }
+  
+  .delivery__img {
+    margin: 50px 0 25px 0;
+    background: url(../../../../images/conditions/delivery.png) center no-repeat;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .delivery__phone a,
+  .point__adress__phone a {
+    padding-right: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    color: #2E7AAE;
+  }
+  
+  .delivery__sub-title,
+  .point__sub-title {
+    margin: 0 0 15px 0;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555B60;
+  }
+  
+  .delivery__text {
+    margin: 0 0 15px;
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555B60;
+  }
+  
+  .point__img {
+    margin: 50px 0 25px 0;
+    background: url(../../../../images/conditions/box.png) center no-repeat;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .point__adress__item {
+    display: flex;
+  }
+  
+  .point__adress__img {
+    background: url(../../../../images/conditions/Group.png) center no-repeat;
+    height: 16px;
+    width: 12px;
+  }
+  
+  .point__adress__name {
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    color: #555B60;
+  }
+  
+  .conditions__description {
+    margin: 50px 0;
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555B60;
+    width: 100%;
+  }

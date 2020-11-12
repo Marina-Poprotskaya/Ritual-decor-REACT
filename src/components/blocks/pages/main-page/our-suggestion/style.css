@@ -1,0 +1,38 @@
+.our-suggestion {
+  background: url(../../../../../images/backgroung_suggestion.png) no-repeat center;
+  background-size: cover;
+}
+
+.our-suggestion__wrapper p {
+  font-family: 'Arsenal', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555b60;
+}
+
+.our_suggestion h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-suggestion__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our-suggestion__insert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 170px;
+}
+
+.our-suggestion__insert p {
+  text-align: center;
+}
+
+.our-suggestion__insert img {
+  margin-bottom: 27px;
+}

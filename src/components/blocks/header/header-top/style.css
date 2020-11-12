@@ -1,0 +1,48 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #262626;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.header-top .site-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  height: 100%;
+  font-size: 13px;
+}
+
+.info__email {
+  color: #fff;
+}
+
+.header__navbar {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 100%;
+  color: #fff !important;
+}
+
+.header__navbar .nav {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__navbar a.nav-link {
+  color: #fff !important;
+  font-size: 14px !important;
+  padding-left: 0 !important;
+}
