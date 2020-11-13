@@ -4,11 +4,11 @@ import HeaderBottom from '../header-bottom/components';
 
 import './style.css';
 
-function Header() {
+function Header({onClick}) {
   return (
     <header className="header">
       <HeaderTop />
-      <HeaderBottom />
+      <HeaderBottom onClick={onClick}/>
     </header>
   );
 }

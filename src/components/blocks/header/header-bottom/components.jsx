@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
-function HeaderBottom() {
+function HeaderBottom({onClick}) {
   return (
     <div className="header-bottom">
       <div className="site-container">
@@ -28,7 +28,7 @@ function HeaderBottom() {
             <a href="tel:375297079837">+375 29 707-98-37</a>
           </div>
         </div>
-        <button type="button" className="button header-btn">
+        <button type="button" className="button header-btn" onClick={onClick}>
           Заказать звонок
         </button>
       </div>

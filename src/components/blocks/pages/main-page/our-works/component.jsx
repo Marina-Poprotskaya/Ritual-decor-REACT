@@ -1,10 +1,18 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 import ourWorksLeft from '../../../../../images/our_works_left.png';
 import ourWorksRight from '../../../../../images/our_works_right.png';
 
 import './style.css';
 
 function OurWorks() {
+
+  const history = useHistory();
+
+  const handleSwitchToAllProjects = () => {
+    history.push("/our-projects");
+  };
+
   return (
     <section className="our-works">
       <div className="site-container">
@@ -22,7 +30,7 @@ function OurWorks() {
             <img src={ourWorksRight} alt=""></img>
           </div>
         </div>
-        <button className="button">Все проекты</button>
+        <button className="button" onClick={handleSwitchToAllProjects}>Все проекты</button>
       </div>
     </section>
   );

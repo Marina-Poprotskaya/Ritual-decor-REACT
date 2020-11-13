@@ -7,18 +7,23 @@ import OurWorks from '../our-works/component';
 import WhereBuy from '../where-buy/component';
 import ContactUs from '../contact-us/component';
 
+
 import './style.css';
 
-function MainPage() {
+function MainPage(props) {
+  console.log('props: ', props);
+
+  const {onClick, onSubmit} = props;
+
   return (
     <div className="main">
       <Banner />
       <PopularGoods />
       <OurSuggestion />
-      <OurProducts />
+      <OurProducts onClick={onClick}/>
       <OurWorks />
       <WhereBuy />
-      <ContactUs />
+      <ContactUs onSubmit={onSubmit}/>
     </div>
   );
 }

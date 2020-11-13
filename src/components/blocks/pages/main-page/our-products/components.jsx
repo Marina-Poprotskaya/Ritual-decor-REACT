@@ -4,7 +4,7 @@ import ourProductsRight from '../../../../../images/our_products_right.png';
 
 import './style.css';
 
-function OurProducts() {
+function OurProducts({ onClick }) {
   return (
     <section className="our-production">
       <div className="title">
@@ -20,7 +20,7 @@ function OurProducts() {
                 твердостью, износостойкостью, высокой химической стойкостью,
                 экологической безопасностью в процессе эксплуатации.
               </p>
-              <button className="button" id="order-button">
+              <button className="button" id="order-button" type='button' onClick={onClick}>
                 Заказать
               </button>
             </div>

@@ -1,8 +1,16 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 
 import './style.css';
 
 function Banner() {
+
+  const history = useHistory();
+
+  const handleSwitchToCatalog = () => {
+    history.push("/catalog");
+  };
+
   return (
     <section className="banner">
       <div className="site-container">
@@ -12,7 +20,7 @@ function Banner() {
             Собственное производство декоративных элементов, скульптур из
             полимер бетона и литьевого мрамора. Более 5ти лет!
           </p>
-          <button type="button" className="button banner-btn">
+          <button type="button" className="button banner-btn" onClick={handleSwitchToCatalog}>
             Перейти в каталог
           </button>
         </div>
