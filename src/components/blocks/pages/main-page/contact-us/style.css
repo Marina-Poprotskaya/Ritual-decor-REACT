@@ -36,15 +36,17 @@
   .contact-us__insert:last-child p::after {
     content: url(../../../../../images/contact_us_img.png);
     position: absolute;
-    bottom: -225px;
+    bottom: -210px;
     left: 100px;
     opacity: 0.2;
+    box-sizing: content-box;
   }
   
   .contact-us__insert img {
     position: relative;
     z-index: 100;
-    padding-left: 80px;
+    margin-left: 80px;
+    width: 400px;
   }
   
   .contact-us__insert input:not(:last-child) {

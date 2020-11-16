@@ -43,7 +43,6 @@
 .our-production__insert:nth-child(2) img {
   margin-bottom: 40px;
   z-index: 100;
-  position: relative;
 }
 
 .line_left,

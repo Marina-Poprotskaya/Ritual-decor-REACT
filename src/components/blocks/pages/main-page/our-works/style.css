@@ -55,7 +55,7 @@
   height: 362px;
   left: 45px;
   background-color: #fff;
-  z-index: 10;
+  z-index: 2;
 }
 
 .our_works_insert:first-child::before,
@@ -66,7 +66,7 @@
   height: 362px;
   right: 45px;
   background-color: #fff;
-  z-index: 10;
+  z-index: 3;
 }
 
 .our_works_insert:first-child::after,

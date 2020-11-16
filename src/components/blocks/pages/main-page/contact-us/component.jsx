@@ -4,7 +4,17 @@ import contactUs from "../../../../../images/contact_us_img.png";
 
 import "./style.css";
 
-function ContactUs({onSubmit}) {
+function ContactUs(props) {
+  const {
+    onSubmit,
+    onChangeName,
+    onChangePhone,
+    onChangeMessage,
+    name,
+    phoneNumber,
+    textareaText,
+  } = props;
+
   return (
     <section className="contact-us">
       <div className="title">
@@ -13,7 +23,15 @@ function ContactUs({onSubmit}) {
       <div className="contact-gradient"></div>
       <div className="site-container">
         <div className="contact-us__wrapper">
-          <Form onSubmit={onSubmit}/>
+          <Form
+            onSubmit={onSubmit}
+            onChangeName={onChangeName}
+            onChangePhone={onChangePhone}
+            onChangeMessage={onChangeMessage}
+            name={name}
+            phoneNumber={phoneNumber}
+            textareaText={textareaText}
+          />
           <div className="contact-us__insert">
             <p>
               Изделия из литьевого мрамора легко сверлится и шлифуется,
