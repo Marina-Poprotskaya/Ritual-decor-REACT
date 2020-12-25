@@ -1,0 +1,164 @@
+.catalog-item .title {
+    text-align: left;
+    margin: 62px 0 0 65px;
+}
+
+.catalog-item__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-item__wrapper .description__column {
+    width: 24%;
+}
+
+.catalog-item__wrapper .goods__column {
+    width: 74%;
+}
+
+.catalog__categories {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7F4EF;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.catalog__categories .ant-checkbox-wrapper {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 200%;
+    color: #434343;
+
+}
+
+.categories__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 120%;
+    color: #2E2E2E;
+    margin-bottom: 10px;
+}
+
+.price__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__wrapper .ant-row {
+    margin-bottom: 0;
+}
+
+.ant-checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.price__wrapper.bottom span {
+    text-align: center;
+    width: 90px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    color: #6A6A6A;
+    margin-top: 4px;
+}
+
+.price__wrapper.top input {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2E2E;
+}
+
+.description__column .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ca2222 !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-family: 'Arsenal', sans-serif !important;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px !important;
+    border: none !important;
+    transition: all 0.3s;
+  }
+
+
+.description__column .button:hover {
+    background-color: #b31b1b !important;
+    transition: all 0.3s;
+  }
+
+  .item__category .title {
+      margin-bottom: 20px;
+  }
+
+  .goods__column {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .popular-goods__insert img {
+    width: 280px;
+    height: 307px;
+    padding-bottom: 15px;
+  }
+  
+  .popular-goods__insert {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    text-decoration: none;
+  }
+  
+  .popular-goods__insert .metal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555b60;
+    text-decoration: none;
+  }
+  
+  .popular-goods__insert .price {
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2e7aae;
+  }
+  
+  .popular-goods__insert p {
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555b60;
+    margin-bottom: 0;
+  }
+  
+  .goods__column .article {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555B60;
+  }
+
+  .goods__column .popular-goods__insert {
+    margin: 0 0 50px;
+  }

@@ -10,6 +10,7 @@ import Contacts from "./components/blocks/pages/contacts/component";
 import OurProjects from "./components/blocks/pages/our-projects/component";
 import ProjectDescription from "./components/blocks/pages/project-description/component";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import CatalogCategory from './components/blocks/pages/catalog-item/component'
 import "./App.css";
 
 function App() {
@@ -103,6 +104,7 @@ function App() {
         <Route path="/contacts" component={Contacts} />
         <Route path="/our-projects" component={OurProjects} />
         <Route path="/project-description/:id" component={ProjectDescription} />
+        <Route path="/catalog-item" component={CatalogCategory} />
         <Footer />
       </div>
     </Router>

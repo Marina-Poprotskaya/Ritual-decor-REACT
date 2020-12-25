@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import './style.css'
 
 function Footer() {
+
     return (
         <footer className="footer">
         <div className="site-container">
@@ -27,7 +28,7 @@ function Footer() {
                     <div className="footer_insert_column">
                         <span>Категория</span>
                         <ul>
-                            <li><a href="#">Фотокерамика</a></li>
+                            <li><Link to="/catalog-item">Фотокерамика</Link></li>
                             <li><a href="#">Для памятников</a></li>
                             <li><a href="#">Вазы</a></li>
                             <li><a href="#">Скульптуры</a></li>

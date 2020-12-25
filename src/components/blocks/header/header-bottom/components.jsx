@@ -15,7 +15,7 @@ function HeaderBottom({onClick}) {
         </Link>
         <div className="header-bottom__navbar">
           <Nav>
-            <Nav.Link href="/home">ФОТОКЕРАМИКА</Nav.Link>
+            <Nav.Link href="/catalog-item">ФОТОКЕРАМИКА</Nav.Link>
             <Nav.Link eventKey="link-1">ДЛЯ ПАМЯТНИКОВ</Nav.Link>
             <Nav.Link eventKey="link-2">ВАЗЫ</Nav.Link>
             <Nav.Link eventKey="link-3">СКУЛЬПТУРЫ</Nav.Link>

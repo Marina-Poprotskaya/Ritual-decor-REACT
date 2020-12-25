@@ -1,5 +1,5 @@
 import React from "react";
-import GoodItem from "./good-item";
+import GoodItem from '../../catalog-item/good-item';
 import { useHistory } from "react-router-dom";
 import cross from "../../../../../images/cross.png";
 
@@ -24,24 +24,28 @@ function PopularGoods() {
             name="Антит золото"
             description="КРЕСТ ПРАВОСЛАВНЫЙ, РАЗМЕР 11,7"
             price="20 руб"
+            article=''
           />
           <GoodItem
             src={cross}
             name="Антит золото"
             description="КРЕСТ ПРАВОСЛАВНЫЙ, РАЗМЕР 11,7"
             price="20 руб"
+            article=''
           />
           <GoodItem
             src={cross}
             name="Антит золото"
             description="КРЕСТ ПРАВОСЛАВНЫЙ, РАЗМЕР 11,7"
             price="20 руб"
+            article=''
           />
           <GoodItem
             src={cross}
             name="Антит золото"
             description="КРЕСТ ПРАВОСЛАВНЫЙ, РАЗМЕР 11,7"
             price="20 руб"
+            article=''
           />
         </div>
         <button

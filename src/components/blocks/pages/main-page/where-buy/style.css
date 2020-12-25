@@ -18,8 +18,8 @@
     background-color: #BAA060;
   }
   
-  .where-buy .title {
-    color: #fff;
+  .where-buy .title h3{
+    color: #fff !important;
   }
   
   .where-buy__font {

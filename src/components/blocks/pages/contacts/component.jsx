@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from './map';
 
 import './style.css';
 
@@ -25,7 +26,9 @@ function Contacts() {
                 </div>
             </div>
         </div>
-
+            <div className="map-wrapper">
+            <Map />
+            </div>
     </section>
     )
 }
