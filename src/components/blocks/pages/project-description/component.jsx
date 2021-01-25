@@ -7,6 +7,7 @@ import "./style.css";
 function ProjectDescription() {
   let params = useParams();
   const { id } = params;
+
   return (
     <section className="project-description">
       <div className="site-container">

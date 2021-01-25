@@ -35,7 +35,9 @@ function Form(props) {
         value={textareaText}
         onChange={onChangeMessage}
       ></textarea>
-      <input type="submit" className="button" value="Оставить заявку"></input>
+      <div className="button-wrapper">
+         <input type="submit" className="button" value="Оставить заявку"></input>
+      </div>
     </form>
   );
 }

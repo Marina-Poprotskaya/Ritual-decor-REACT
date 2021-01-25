@@ -2,11 +2,11 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../../../../images/logo.png';
 import { Link } from 'react-router-dom';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
 function HeaderBottom({onClick}) {
+
   return (
     <div className="header-bottom">
       <div className="site-container">
@@ -15,11 +15,11 @@ function HeaderBottom({onClick}) {
         </Link>
         <div className="header-bottom__navbar">
           <Nav>
-            <Nav.Link href="/catalog-item">ФОТОКЕРАМИКА</Nav.Link>
-            <Nav.Link eventKey="link-1">ДЛЯ ПАМЯТНИКОВ</Nav.Link>
-            <Nav.Link eventKey="link-2">ВАЗЫ</Nav.Link>
-            <Nav.Link eventKey="link-3">СКУЛЬПТУРЫ</Nav.Link>
-            <Nav.Link href="/our-projects">НАШИ ПРОЕКТЫ</Nav.Link>
+            <Nav.Link href="/catalog-item/0"><span>ФОТОКЕРАМИКА</span></Nav.Link>
+            <Nav.Link href="/catalog-item/1"><span>ДЛЯ ПАМЯТНИКОВ</span></Nav.Link>
+            <Nav.Link href="/catalog-item/2"><span>ВАЗЫ</span></Nav.Link>
+            <Nav.Link href="/catalog-item/3"><span>СКУЛЬПТУРЫ</span></Nav.Link>
+            <Nav.Link href="/our-projects"><span>НАШИ ПРОЕКТЫ</span></Nav.Link>
           </Nav>
         </div>
         <div className="header-bottom__contacts">

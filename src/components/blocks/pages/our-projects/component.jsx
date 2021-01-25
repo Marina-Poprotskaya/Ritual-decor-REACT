@@ -3,6 +3,7 @@ import CatalogItem from "../catalog/catalog-item";
 import projectsData from '../project-description/data';
 import { useHistory } from "react-router-dom";
 
+
 import "./style.css";
 
 function OurProjects() {

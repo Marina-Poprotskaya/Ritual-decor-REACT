@@ -10,7 +10,8 @@ import Contacts from "./components/blocks/pages/contacts/component";
 import OurProjects from "./components/blocks/pages/our-projects/component";
 import ProjectDescription from "./components/blocks/pages/project-description/component";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import CatalogCategory from './components/blocks/pages/catalog-item/component'
+import CatalogCategory from './components/blocks/pages/catalog-item/component';
+import CardProduct from './components/blocks/pages/card-product/component'
 import "./App.css";
 
 function App() {
@@ -60,8 +61,10 @@ function App() {
     clearForm();
   };
 
-  const handleCloseModal = () => {
+  const handleCloseModal = (e) => {
+  if(e.target.classList.contains('modal-wrapper') || e.target.classList.contains('close-btn')) {
     setIsOpen(false);
+  }
   };
 
   return (
@@ -104,7 +107,8 @@ function App() {
         <Route path="/contacts" component={Contacts} />
         <Route path="/our-projects" component={OurProjects} />
         <Route path="/project-description/:id" component={ProjectDescription} />
-        <Route path="/catalog-item" component={CatalogCategory} />
+        <Route path="/catalog-item/:id" component={CatalogCategory} />
+        <Route path="/card-product/:id" component={CardProduct} />
         <Footer />
       </div>
     </Router>

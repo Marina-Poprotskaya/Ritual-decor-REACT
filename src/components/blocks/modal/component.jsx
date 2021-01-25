@@ -16,7 +16,7 @@ function Modal(props) {
     textareaText,
   } = props;
   return (
-    <div className="modal-wrapper">
+    <div className="modal-wrapper" onClick={onClick}>
       <div className="modal-form" style={{ top: `${position}px` }}>
         <button type="button" className="close-btn" onClick={onClick}>
           x
@@ -24,7 +24,7 @@ function Modal(props) {
         <div className="title">
           <h3>У вас есть вопросы?</h3>
         </div>
-        <p>Введите свои данные наш менеджер свяжется с вами!</p>
+        <p>Введите свои данные и наш менеджер свяжется с вами!</p>
         <Form
           onSubmit={onSubmit}
           onChangeName={onChangeName}

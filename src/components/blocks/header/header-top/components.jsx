@@ -10,9 +10,9 @@ function HeaderTop() {
       <div className="site-container">
         <div className="header__navbar">
           <Nav>
-            <Nav.Link href="/about-company">О компании</Nav.Link>
-            <Nav.Link href="/conditional">Условия работы</Nav.Link>
-            <Nav.Link href="/contacts">Контакты</Nav.Link>
+            <Nav.Link href="/about-company"><span>О компании</span></Nav.Link>
+            <Nav.Link href="/conditional"><span>Условия работы</span></Nav.Link>
+            <Nav.Link href="/contacts"><span>Контакты</span></Nav.Link>
           </Nav>
         </div>
         <div className="header__info">

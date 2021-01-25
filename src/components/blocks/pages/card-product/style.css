@@ -1,0 +1,226 @@
+.card-product__wrapper .title.card-product__title {
+    text-align: left;
+    margin: 62px 0 0 65px;
+}
+
+.card-product__layout {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 44px;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+}
+
+.card-product__item {
+    width: 45%;
+}
+
+.description__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #565656;
+} 
+
+.card-product__description {
+    margin-top: 26px;
+}
+
+.description__text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555B60;
+    margin-top: 17px;
+}
+
+.card-product__popular-goods {
+    background: url(../../../../images/backgroung_suggestion.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+}
+
+.our-description {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555B60;
+    margin: 40px auto 50px;
+}
+
+.card-product__wrapper .ant-btn-group button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+}
+
+.card-product__item-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-product__item-row {
+    margin-bottom: 20px;
+}
+
+.item-price {
+    font-family: 'Arsenal', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #2E7AAE;
+}
+
+.item-notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #8E8E8E;
+    width: 196px;
+    height: 41px;
+    background: #F7F7F7;
+}
+
+.item-article {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.57);
+}
+
+.card-product__item-row .button {
+    position: relative;
+    width: 230px;
+}
+
+.card-product__item-row.row-second #order-button span {
+  position: absolute;
+  left: 23%;
+  top: 17px;
+}
+
+.download-btn {
+    background-color: #F7F4EF !important;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000
+}
+
+.download-btn span {
+    padding-right: 12px;
+}
+
+
+.download-btn:hover .download-btn__icon {
+    color: #ca2222;
+    transition: all .3s;
+}
+
+.card-product__item-row.row-second {
+   padding-bottom: 20px;
+   border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+}
+
+.address-where-buy {
+    height: 130px;
+    width: auto;
+    background: #FAFAFA;
+    border-radius: 3px;
+    padding: 26px 0 24px 21px;
+}
+
+.address-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+
+.address-item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 200%;
+    color: #6B6B6B;
+    margin-bottom: 5px;
+}
+
+.address-item span {
+    color: #2E7AAE;
+    font-weight: 700;
+}
+
+.separate-line {
+    margin: 26px 0 16px;
+    color: rgba(224, 224, 224, 0.5);;
+}
+
+.item-characteristic__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #565656;
+}
+
+.characteristic__wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 200%;
+    color: #434343;
+}
+
+.characteristic__wrapper:first-of-type {
+    margin-top: 18px;
+}
+
+.characteristic__wrapper .characteristic_title {
+    font-weight: 500;
+    width: 40%;
+}
+
+.characteristic__wrapper .characteristic_value {
+    font-weight: normal;
+    width: 40%;
+}

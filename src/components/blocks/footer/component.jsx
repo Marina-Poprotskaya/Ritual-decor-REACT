@@ -28,10 +28,10 @@ function Footer() {
                     <div className="footer_insert_column">
                         <span>Категория</span>
                         <ul>
-                            <li><Link to="/catalog-item">Фотокерамика</Link></li>
-                            <li><a href="#">Для памятников</a></li>
-                            <li><a href="#">Вазы</a></li>
-                            <li><a href="#">Скульптуры</a></li>
+                            <li><Link to="/catalog-item/0">Фотокерамика</Link></li>
+                            <li><Link to="/catalog-item/1">Для памятников</Link></li>
+                            <li><Link to="/catalog-item/2">Вазы</Link></li>
+                            <li><Link to="/catalog-item/3">Скульптуры</Link></li>
                         </ul>
                     </div>
                     <div className="footer_insert_column">

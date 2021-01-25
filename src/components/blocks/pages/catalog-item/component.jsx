@@ -2,21 +2,31 @@ import React from "react";
 import { catalogData } from "./data";
 import { Checkbox } from "antd";
 import "antd/dist/antd.css";
+import { useParams, useHistory } from "react-router-dom";
 import { InputNumber, Form, Button } from "antd";
-import GoodItem from "./good-item";
 
 import "./style.css";
 
 const CatalogCategory = () => {
+
+  const history = useHistory();
+
+  let params = useParams();
+  const { id } = params;
+
   const onFinish = (values) => {
     console.log("Received values of form: ", values);
   };
 
-  const categoryOptions = catalogData[0].sideMenu.categories.map((item) => {
+  const onClick = (id) => {
+    history.push(`/card-product/${id}`);
+  }
+
+  const categoryOptions = catalogData[id].sideMenu.categories.map((item) => {
     return { label: item, value: item };
   });
 
-  const colorsOptions = catalogData[0].sideMenu.color.map((item) => {
+  const colorsOptions = catalogData[id].sideMenu.color.map((item) => {
     return { label: item, value: item };
   });
 
@@ -24,7 +34,7 @@ const CatalogCategory = () => {
     <section className="catalog-item item__category">
       <div className="site-container">
         <div className="title">
-          <h3>{catalogData[0].title}</h3>
+          <h3>{catalogData[id].title}</h3>
         </div>
         <div className="catalog-item__wrapper">
           <div className="description__column column">
@@ -60,7 +70,7 @@ const CatalogCategory = () => {
                 </div>
               </div>
               <div className="catalog__categories">
-                <span className="categories__title">Категория</span>
+                <span className="categories__title">Цвета</span>
                 <Form.Item name="colors">
                   <Checkbox.Group options={colorsOptions}></Checkbox.Group>
                 </Form.Item>
@@ -93,9 +103,9 @@ const CatalogCategory = () => {
             </Form>
           </div>
           <div className="goods__column column">
-            {catalogData[0].goods.map((item, index) => {
+            {catalogData[id].goods.map((item, index) => {
               return (
-                <div className="popular-goods__insert" key={index}>
+                <div className="popular-goods__insert" key={index} onClick={()=> onClick(index)}>
                   <img src={item.photo} alt={item.goodTitle}></img>
                   <span className="metal">{item.material}</span>
                   <p>{item.goodTitle}</p>
